@@ -1,2 +1,2 @@
 # -hobby-openCV_training
-## This project will tech yo about basic of openvCV
+## This project will teach yo about basic of openvCV
