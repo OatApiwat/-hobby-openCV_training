@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # โหลดภาพในโหมด grayscale
-img = cv2.imread(r"D:\Project\camera\Picture_MA\image_001.jpg", 0)
+img = cv2.imread(r"D:\Python_course\python-opencv\python-opencv\image\currency.jpg", 0)
 
 # Sobel Filter แนวแกน X
 sobelX = cv2.Sobel(img, -1, 1, 0)

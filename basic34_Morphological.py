@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # โหลดภาพในโหมด grayscale (0)
-img = cv2.imread(r"D:\Python_course\python-opencv\python-opencv\image\noise.png", 0)
+img = cv2.imread(r"D:\Python_course\python-opencv\python-opencv\image\ant.png", 0)
 
 # Thresholding
 thresh, result = cv2.threshold(img, 170, 255, cv2.THRESH_BINARY_INV)

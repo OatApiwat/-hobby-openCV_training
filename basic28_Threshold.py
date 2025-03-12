@@ -2,7 +2,7 @@ import cv2
 import os
 
 # โหลดภาพ
-image_path = r"D:\Project\camera\Picture_MA\original\image_001.jpg"
+image_path = r"image\gradient.png"
 gray_img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 if gray_img is None:
